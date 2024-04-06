@@ -1,0 +1,31 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #d4d8f0;
+}
+
+.bg-body-secondary {
+  --bs-bg-opacity: 0;
+  background-color: rgba(var(--bs-secondary-bg-rgb), var(--bs-bg-opacity));
+}
+
+.modal-content {
+  background-color: rgb(26, 25, 58);
+  color: white;
+}
+
+.modal-header {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-around;
+  margin-bottom: 1.5rem;
+}
+
+.btn {
+  margin: 0.5rem;
+  --bs-btn-border-color: none;
+  --bs-btn-hover-border-color: none;
+}
